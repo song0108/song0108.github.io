@@ -1,0 +1,464 @@
+*{
+    box-sizing: border-box;
+    font-family:'Raleway',sans-serif;
+    
+  
+}
+
+/* homemobile */
+nav{
+    background-color: #3c3b3a;
+    width:100%;
+    height:100%;
+    text-align: center;
+    line-height: 40px;  
+}
+/* sets the color of the text */
+.nav-link{
+    color:white;
+    font-size: 16px;
+    /* margin:30px; */
+}
+/*this for make dots dispear */
+li{
+    list-style-type: none; 
+    margin:0 auto;
+}
+/* sets logo in the center of the page */
+.brand{
+    width:50%;
+    height:50%;
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+}
+/* sets logo in the center with background */
+.logo{
+    width:25%;
+    height:25%;  
+    display:block;
+   margin-left: auto;
+    margin-right: auto;
+    background: #3c3b3a;
+    
+}
+/* sets style size and color for heading */
+h1{
+font-size: 40px;
+background-color: white;
+font-style: italic;
+/* margin:130px; */
+}
+/* give margin to sports imgs */
+.sports{
+  margin:30px;
+}
+/* sets for my reading picture */
+.reading{
+    width:100%;
+    height:250px;
+}
+/* sets for image which will show the normal effect without be squeezed */
+.school{
+    width:100%;
+    height:200px;
+    object-fit: cover;
+}
+/* sets for the border and center the image */
+.nurse{
+    border-radius: 200px;
+    width:250px;
+    height:50%;  
+    display:block;
+   margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    
+}
+/* sets backimage with text */  
+.about{
+    display:grid;
+    justify-content: center;
+    align-content: center;
+    background-image:linear-gradient(to bottom, rgba(0, 200, 0, 0.397),rgba(0, 200, 0, 0.397)), url('images/about.jpg');
+    color:white;
+    font-size: 3rem;
+    height:250px;
+}
+/* sets background with text */
+.services{
+    display:grid;
+    justify-content: center;
+    align-content: center;
+    background-image:linear-gradient(to bottom, rgba(0,200,0,0.397),rgba(0,200,0,0.397)), url('images/services.jpg');
+    color:white;
+    font-size: 3rem;
+    height:250px;
+}
+/* sets woman background*/
+.woman{
+    width:100%;
+    height:437px;
+    background-color: #3c3b3a;
+    color:white;
+}
+/* sets entertain images */
+.entertain{
+    width:100%;
+    height:200px;
+    object-fit: cover;
+}
+/*aniimation time designed*/
+.get{
+    animation-name: arrow;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+    animation-duration: 5s;
+    animation-duration: alternate;
+    font-size: 20px;
+    
+}
+ /* this is to style my contact form */
+fieldset{
+    border: none;
+}
+/* sets to align text */
+.section-title{
+    text-align: center;
+}
+/* sets to giet rid of the margin */
+.contact-text{
+    margin-top: 0;
+    margin-bottom: 0;
+}
+/* sets to contact form rounded coners and  span the cotact page */
+input{
+    border-radius: 20px;
+    width: 100%;
+}
+/* get rid of the margin of button submit */
+button.Sub{
+    margin:0;
+}
+
+/* make ths arrow and text center */
+.sdown{
+    text-align: center;
+}
+/* this is my animition which will larger the button*/
+@keyframes arrow{
+ 
+    0%{
+        transform: scale(1.3, 1);
+        color: lightyellow;
+    }
+    100%{
+        transform: scale(0.5,0.5);
+        color:  #26a682;
+    }
+}
+/* sets text color black */
+section{
+    color:black;
+}
+/* sets arrow bounce */
+.fa-arrow-circle-down{
+    animation-name: bounce;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+   font-size:60px;
+}
+ /* sets the effect of bounce */
+@keyframes bounce{
+
+    10% {transform: translate(0,30px);
+        color:lightyellow;
+    }
+    50%{
+        transform: translate(0,0);
+        
+    }
+    70%{
+        transform: translate(0,30px)
+    }
+    100%{
+        transform: translate(0,30px)
+    }
+}
+/* set to style the button */
+button{
+    width:200px;
+    height:50px;
+    background-color: #26a682;
+    margin:80px;
+    border-radius: 20px;
+    color:white;
+    -webkit-box-shadow: 32px 29px 5px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: 32px 29px 5px 0px rgba(0,0,0,0.75);
+box-shadow: 32px 29px 5px 0px rgba(0,0,0,0.75);}
+
+  
+  
+
+/* this is my big round green button*/
+.one{
+    width:180px;
+    height:50px;
+    background-color: #26a682;
+    border-radius: 20px;
+}
+/* sets footer line height and center the text*/
+footer{
+    background-color: #3c3b3a;
+    color:white;
+    width:100%;
+    line-height:20px;
+    text-align:center;
+
+}
+/* sets the contact color and radius */
+.contact{
+    background-color: #26A682;
+    color:white;
+    margin: 30px;
+    border-radius: 30px;
+}
+/* sets the input height  */
+input{
+padding:2px 70px;
+line-height: 40px;
+}
+/* sets the color of the background */
+.Sub{
+    background-color: #3C3B3A;
+}
+/* sets the margin in banner */
+.banner{
+margin-top: 100px;
+}
+/* sets the margin top of the image */
+.hear{
+    margin-top: 100px;
+}
+/* sets the color of the image */
+.green{
+    color:#26a682;
+}
+/* sets the image which will display none in moblie */
+.barr{
+    display:none;
+}
+/* sets the break part between two images */
+.keep{
+ background: #3C3B3A;
+ height:150px;
+ color:white;
+text-align: center;
+font-size: 1.5rem;
+
+}
+/* this is for my tablet */
+@media screen and (min-width:400px)and (max-width:900px){
+
+li{
+  display: inline; 
+  margin:30px;
+  
+}
+/* sets the nav bar height and start */
+nav{
+    height:75px;
+    justify-content: flex-start;
+    
+}
+/* sets the margin ,width and height of the logo */
+.logo{
+    margin:0;
+    width:55px;
+    height:25px;
+}
+/* sets the images margin and width  */
+.sports{
+    margin:50px;
+    width:100%;
+}
+/* sets the weight and size of my button */
+button{
+font-size: 35px;
+font-weight: 600;
+width:300px;
+margin-bottom:130px;
+}
+/* sets the images width height and center the image */
+.brand{
+    width:50%;
+    height:50%;
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+}
+/* sets the height of the text and flex the position */
+.woman{
+    display:flex;
+    line-height: 70px;
+   
+}
+/* sets all text height */
+p{
+    line-height: 60px;
+}
+/* sets the width height margin and block the images */
+.barr{
+    width: 220px;
+    height:374px;
+    margin:80px;
+    display: block;
+}
+/* change the position of the images and the text */
+.bar{
+    display:flex;
+}
+.shoes{
+    display:flex;
+}
+.paragraph{
+    display: flex;
+}
+}
+/* this is my desktop */
+@media screen and (min-width:900px){
+    /* sets my nav inline and flex */
+    li{
+        display: inline; 
+        justify-content: flex-end;
+        margin:30px;
+      }
+      /* sets the nav bar height and start */
+      nav{
+          width:100%;
+          height:75px;
+          justify-content: space-between;
+          display: flex;
+          
+      }
+      /* sets the margin ,width and height of the logo */
+      .logo{
+          margin:0;
+          width:100px;
+          height:75px;
+          
+      }
+      .sports{
+          margin:50px;
+          width:100%;
+      }
+      /* sets the weight and size of my button */
+      button{
+      font-size: 35px;
+      font-weight: 600;
+      width:300px;
+      margin-bottom:130px;
+      }
+      /* sets the images width height and center the image */
+      .brand{
+          width:50%;
+          height:50%;
+          
+          margin-left: auto;
+          margin-right: auto;
+      }
+      /* sets the position of the person */
+      .woman{
+          display:grid;
+          grid-template-columns: 1fr 1fr ;
+          line-height: 70px;
+      }
+      /* give margin to image */
+      .SA{
+          margin-left: 180px;
+      }
+      
+     
+      .barr{
+          object-fit: cover;
+          width: 220px;
+          height:374px;
+          margin:80px;
+          display:block;
+      }
+      /* change the position of the images and the text */
+      .bar{
+          display:flex;
+      }
+      /* sets the images margin and width  */
+      .shoes{
+          display:flex;
+      }
+      .paragraph{
+          display: flex;
+      }
+      .banner{
+          display:flex;
+      }
+      /* sets the height and width of the image */
+      .reading{
+          width:751px;
+          height:753px;
+      }
+      .threew div{
+          width:32%;     
+      }
+      /* sets the position and center the text */
+      .threew{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+      }
+      .constract{
+          display:flex;
+      }
+
+      .bar, .shoes, .paragraph{
+          display:grid;
+          grid-template-columns: 1fr 1fr;;
+      } 
+      /* sets the height of the text and flex the position of the images */
+      .brands{
+          display: flex;
+          width:200px;
+          height:200px;
+          margin-right: auto;   
+          margin-left: auto;
+          justify-content: space-evenly;
+      }
+
+     .hear{
+     display:grid;
+     grid-template-columns: 1fr 1fr;
+      }
+      /* sets the height of the picture */
+     section{
+    height:500px;
+    }
+ .location{
+     display: flex;
+    }
+    .schooll{
+        display:flex;
+    }
+    .school, .entertain{
+        width:40%;
+        margin:140px;
+    }
+    .entertainn{
+        display:flex;
+    }
+    .brand{
+        margin-left: 50px;
+    }
+    .constraction{
+        margin-top: 150px;
+    }
+ 
+}
